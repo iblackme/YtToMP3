@@ -3,13 +3,26 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.15",
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "css.gg": "^2.0.0",
+    "firebase": "^9.14.0",
+    "get-audio-duration": "^3.1.1",
+    "os-browserify": "^0.3.0",
     "react": "^18.2.0",
+    "react-audio-player": "^0.17.0",
+    "react-audio-player-pro": "^1.2.2",
     "react-dom": "^18.2.0",
+    "react-h5-audio-player": "^3.8.6",
+    "react-router-dom": "^6.4.3",
     "react-scripts": "5.0.1",
-    "web-vitals": "^2.1.4"
+    "web-vitals": "^2.1.4",
+    "youtube-mp3-downloader": "^0.7.11",
+    "youtube.get-video-info": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -34,5 +47,6 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "proxy": "https://fe13-196-190-61-237.eu.ngrok.io"
 }
