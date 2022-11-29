@@ -26,7 +26,7 @@ export const Home = () => {
     console.log("stared fechinge");
     const data = await (
       await fetch(
-        `https://youtube-to-mp-3-api.vercel.app/download/${validlink}`,
+        `https://74fc-196-190-61-237.eu.ngrok.io/download/${validlink}`,
         {
           mode: "cors",
         }
