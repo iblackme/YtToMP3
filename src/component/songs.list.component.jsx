@@ -2,7 +2,6 @@ import { db } from "../lib/firebase";
 import { useState, useEffect } from "react";
 import { collection, getDocs } from "firebase/firestore";
 import { Link } from "react-router-dom";
-import Post from "../lib/datascroller";
 import "./songs.list.css";
 
 export const SongsList = () => {
@@ -32,7 +31,7 @@ export const SongsList = () => {
         {songs?.map((song) => (
           <div>
             <div key={song.id} className="single-song">
-              <Link to={`song/${song.id}`}>
+              <Link to={`song/${song.id}`} style={{ textDecoration: "none" }}>
                 <div className="song-card">
                   <h1 className="single-song-title title">{song.title}</h1>
                   <h1 className="single-song-title play">play </h1>

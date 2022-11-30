@@ -1,5 +1,5 @@
 {
-  "name": "music",
+  "name": "audi_streamer",
   "version": "0.1.0",
   "dependencies": {
     "@emotion/react": "^11.10.5",
@@ -41,5 +41,10 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "description": "react and firebase",
+  "main": "index.js",
+  "repository": "https://github.com/iblackme/YtToMP3.git",
+  "author": "ishak_sebsib <imu.isomusi@gmail.com>",
+  "license": "MIT"
 }
